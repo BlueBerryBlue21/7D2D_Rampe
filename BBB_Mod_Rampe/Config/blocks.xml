@@ -1,0 +1,2044 @@
+<configs>
+
+<append xpath="/blocks">
+
+*** FrameShapes AussenEcke 8m 0ab ***
+
+frameShapes AussenEcke 8m Rampe 0
+<block name="Würfel0ab">
+	<property name="Model" value="#@modfolder:Resources/Würfelab.unity3d?Würfel0ab.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ab0"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel0ac"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+		<property name="UpgradeSound" value="place_block_wood"/>
+	</property>
+</block>
+	
+frameShapes  AussenEcke 8m Rampe 1
+<block name="Würfel1ab">
+	<property name="Model" value="#@modfolder:Resources/Würfelab.unity3d?Würfel1ab.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ab1"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel1ac"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+
+frameShapes  AussenEcke 8m Rampe 2
+<block name="Würfel2ab">
+	<property name="Model" value="#@modfolder:Resources/Würfelab.unity3d?Würfel2ab.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ab2"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>	
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel2ac"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+	
+frameShapes  AussenEcke 8m Rampe 3
+<block name="Würfel3ab">
+	<property name="Model" value="#@modfolder:Resources/Würfelab.unity3d?Würfel3ab.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ab3"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>	
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel3ac"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+	
+frameShapes  AussenEcke 8m Rampe 4
+<block name="Würfel4ab">
+	<property name="Model" value="#@modfolder:Resources/Würfelab.unity3d?Würfel4ab.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ab4"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>	
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel4ac"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>
+	</property>
+</block>
+
+frameShapes  AussenEcke 8m Rampe 5
+<block name="Würfel5ab">
+	<property name="Model" value="#@modfolder:Resources/Würfelab.unity3d?Würfel5ab.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ab5"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>	
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel5ac"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>	
+</block>
+	
+frameShapes  AussenEcke 8m Rampe 6
+<block name="Würfel6ab">
+	<property name="Model" value="#@modfolder:Resources/Würfelab.unity3d?Würfel6ab.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ab6"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>	
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel6ac"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+	
+frameShapes  AussenEcke 8m Rampe 7
+<block name="Würfel7ab">
+	<property name="Model" value="#@modfolder:Resources/Würfelab.unity3d?Würfel7ab.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ab7"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>	
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel7ac"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+
+
+frameShapes  AussenEcke 8m Rampe VariantHelper
+<block name="Würfel0abBlockVariantHelper">
+	<property name="Extends" value="Würfel0ab"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="Rampe 8m ab0"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="Würfel0ab,Würfel1ab,Würfel2ab,Würfel3ab,Würfel4ab,Würfel5ab,Würfel6ab,Würfel7ab"/>
+	<property name="SortOrder1" value="U200"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers,MC_Shapes"/>
+</block>
+
+
+
+***** FrameShapes InnenEcke 8m 0ib *****
+
+frameShapes innenecke 8m Rampe 0
+<block name="Würfel0ib">
+	<property name="Model" value="#@modfolder:Resources/Würfelib.unity3d?Würfel0ib.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ib0"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel0"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+		<property name="UpgradeSound" value="place_block_wood"/>
+	</property>	
+</block>
+	
+frameShapes  innenecke 8m Rampe 1
+<block name="Würfel1ib">
+	<property name="Model" value="#@modfolder:Resources/Würfelib.unity3d?Würfel1ib.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ib1"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel1"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+
+frameShapes  innenecke 8m Rampe 2
+<block name="Würfel2ib">
+	<property name="Model" value="#@modfolder:Resources/Würfelib.unity3d?Würfel2ib.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ib2"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>	
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel2"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+	
+frameShapes  innenecke 8m Rampe 3
+<block name="Würfel3ib">
+	<property name="Model" value="#@modfolder:Resources/Würfelib.unity3d?Würfel3ib.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ib3"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>	
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel3"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+	
+frameShapes  innenecke 8m Rampe 4
+<block name="Würfel4ib">
+	<property name="Model" value="#@modfolder:Resources/Würfelib.unity3d?Würfel4ib.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ib4"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>	
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel4"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>
+	</property>
+</block>
+
+frameShapes  innenecke 8m Rampe 5
+<block name="Würfel5ib">
+	<property name="Model" value="#@modfolder:Resources/Würfelib.unity3d?Würfel5ib.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ib5"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>	
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel5"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+	
+frameShapes  innenecke 8m Rampe 6
+<block name="Würfel6ib">
+	<property name="Model" value="#@modfolder:Resources/Würfelib.unity3d?Würfel6ib.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ib6"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>	
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel6"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+	
+frameShapes  innenecke 8m Rampe 7
+<block name="Würfel7ib">
+	<property name="Model" value="#@modfolder:Resources/Würfelib.unity3d?Würfel7ib.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ib7"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_weak_shapes"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="FuelValue" value="100"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property name="CanPickup" value="true" param1="Würfel0ibBlockVariantHelper"/>	
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel7"/>
+		<property name="Item" value="resourceWood"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+
+frameShapes  innenEcke 8m Rampe VariantHelper
+<block name="Würfel0ibBlockVariantHelper">
+	<property name="Extends" value="Würfel0ib"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="Rampe 8m ib0"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="Würfel0ib,Würfel1ib,Würfel2ib,Würfel3ib,Würfel4ib,Würfel5ib,Würfel6ib,Würfel7ib"/>
+	<property name="SortOrder1" value="U200"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers,MC_Shapes"/>
+</block>
+
+
+
+***** Holz innenecke 8m Rampe 0 *****
+
+Holz innenecke 8m Rampe 0
+<block name="Würfel0">
+	<property name="Model" value="#@modfolder:Resources/Würfel.unity3d?Würfel0.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m h0"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel0c"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+		<property name="UpgradeSound" value="place_block_wood"/>
+	</property>
+</block>
+	
+Holz innenecke 8m Rampe 1
+<block name="Würfel1">
+	<property name="Model" value="#@modfolder:Resources/Würfel.unity3d?Würfel1.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m h1"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel1c"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+
+Holz innenecke 8m Rampe 2
+<block name="Würfel2">
+	<property name="Model" value="#@modfolder:Resources/Würfel.unity3d?Würfel2.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m h2"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel2c"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+	
+Holz innenecke 8m Rampe 3
+<block name="Würfel3">
+	<property name="Model" value="#@modfolder:Resources/Würfel.unity3d?Würfel3.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m h3"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel3c"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+	
+Holz innenecke 8m Rampe 4
+<block name="Würfel4">
+	<property name="Model" value="#@modfolder:Resources/Würfel.unity3d?Würfel4.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m h4"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel4c"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>
+	</property>
+</block>
+
+Holz innenecke 8m Rampe 5
+<block name="Würfel5">
+	<property name="Model" value="#@modfolder:Resources/Würfel.unity3d?Würfel5.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m h5"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel5c"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+	
+Holz innenecke 8m Rampe 6
+<block name="Würfel6">
+	<property name="Model" value="#@modfolder:Resources/Würfel.unity3d?Würfel6.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m h5"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel6c"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+	
+Holz innenecke 8m Rampe 7
+<block name="Würfel7">
+	<property name="Model" value="#@modfolder:Resources/Würfel.unity3d?Würfel7.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m h7"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel7c"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>		
+	</property>
+</block>
+
+
+Holz innenEcke 8m Rampe VariantHelper
+<block name="Würfel0BlockVariantHelper">
+	<property name="Extends" value="Würfel0"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="Rampe 8m h0"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="Würfel0,Würfel1,Würfel2,Würfel3,Würfel4,Würfel5,Würfel6,Würfel7"/>
+	<property name="SortOrder1" value="U200"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers,MC_Shapes"/>
+</block>
+
+
+
+***** Cement innenEcke 8m Rampe 0c *****
+
+Cement innenEcke 8m Rampe 0c
+<block name="Würfel0c">
+	<property name="Model" value="#@modfolder:Resources/Würfelc.unity3d?Würfel0c.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m c0"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel0s"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>
+</block>
+	
+Cement innenEcke 8m Rampe 1c
+<block name="Würfel1c">
+	<property name="Model" value="#@modfolder:Resources/Würfelc.unity3d?Würfel1c.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m c1"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel1s"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>
+</block>
+
+Cement innenEcke 8m Rampe 2c
+<block name="Würfel2c">
+	<property name="Model" value="#@modfolder:Resources/Würfelc.unity3d?Würfel2c.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m c2"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel2s"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>
+</block>
+	
+Cement innenEcke 8m Rampe 3c
+<block name="Würfel3c">
+	<property name="Model" value="#@modfolder:Resources/Würfelc.unity3d?Würfel3c.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m c3"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel3s"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>
+</block>
+	
+Cement innenEcke 8m Rampe 4c
+<block name="Würfel4c">
+	<property name="Model" value="#@modfolder:Resources/Würfelc.unity3d?Würfel4c.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m c4"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel4s"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>
+</block>
+
+Cement innenEcke 8m Rampe 5c
+<block name="Würfel5c">
+	<property name="Model" value="#@modfolder:Resources/Würfelc.unity3d?Würfel5c.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m c5"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel5s"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>
+</block>
+	
+Cement innenEcke 8m Rampe 6c
+<block name="Würfel6c">
+	<property name="Model" value="#@modfolder:Resources/Würfelc.unity3d?Würfel6c.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m c6"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel6s"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>
+</block>
+	
+Cement innenEcke 8m Rampe 7c
+<block name="Würfel7c">
+	<property name="Model" value="#@modfolder:Resources/Würfelc.unity3d?Würfel7c.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m c7"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel7s"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+		<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>
+</block>
+
+
+Cement innenEcke 8m Rampe 0c VariantHelper
+<block name="Würfel0cBlockVariantHelper">
+	<property name="Extends" value="Würfel0c"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="Rampe 8m c0"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="Würfel0c,Würfel1c,Würfel2c,Würfel3c,Würfel4c,Würfel5c,Würfel6c,Würfel7c"/>
+	<property name="SortOrder1" value="U200"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers,MC_Shapes"/>
+</block>
+
+
+
+***** Steel innenEcke 8m Rampe 0s *****
+
+Steel innenEcke 8m Rampe 0s
+<block name="Würfel0s">
+	<property name="Model" value="#@modfolder:Resources/Würfels.unity3d?Würfel0s.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m s0"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+	
+Steel innenEcke 8m Rampe 1s
+<block name="Würfel1s">
+	<property name="Model" value="#@modfolder:Resources/Würfels.unity3d?Würfel1s.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m s1"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+
+Steel innenEcke 8m Rampe 2s
+<block name="Würfel2s">
+	<property name="Model" value="#@modfolder:Resources/Würfels.unity3d?Würfel2s.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m s2"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+	
+Steel innenEcke 8m Rampe 3s
+<block name="Würfel3s">
+	<property name="Model" value="#@modfolder:Resources/Würfels.unity3d?Würfel3s.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m s3"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+	
+Steel innenEcke 8m Rampe 4s
+<block name="Würfel4s">
+	<property name="Model" value="#@modfolder:Resources/Würfels.unity3d?Würfel4s.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m s4"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+
+Steel innenEcke 8m Rampe 5s
+<block name="Würfel5s">
+	<property name="Model" value="#@modfolder:Resources/Würfels.unity3d?Würfel5s.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m s5"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+	
+Steel innenEcke 8m Rampe 6s
+<block name="Würfel6s">
+	<property name="Model" value="#@modfolder:Resources/Würfels.unity3d?Würfel6s.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m s6"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+	
+Steel innenEcke 8m Rampe 7s
+<block name="Würfel7s">
+	<property name="Model" value="#@modfolder:Resources/Würfels.unity3d?Würfel7s.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m s7"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+
+
+Steel innenEcke 8m Rampe 0s BlockVariantHelper
+<block name="Würfel0sBlockVariantHelper">
+	<property name="Extends" value="Würfel0s"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="Rampe 8m s0"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="Würfel0s,Würfel1s,Würfel2s,Würfel3s,Würfel4s,Würfel5s,Würfel6s,Würfel7s"/>
+	<property name="SortOrder1" value="U200"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers,MC_Shapes"/>
+</block>
+
+
+
+***** Holz aussenEcke 8m Rampe 0ac *****
+
+Holz aussenEcke 8m Rampe 0ac
+<block name="Würfel0ac">
+	<property name="Model" value="#@modfolder:Resources/Würfelac.unity3d?Würfel0ac.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ac0"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel0az"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>	
+	</property>	
+</block>
+	
+Holz aussenEcke 8m Rampe 1ac
+<block name="Würfel1ac">
+	<property name="Model" value="#@modfolder:Resources/Würfelac.unity3d?Würfel1ac.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ac1"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel1az"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>	
+	</property>	
+</block>
+
+Holz aussenEcke 8m Rampe 2ac
+<block name="Würfel2ac">
+	<property name="Model" value="#@modfolder:Resources/Würfelac.unity3d?Würfel2ac.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ac2"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel2az"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>	
+	</property>	
+</block>
+	
+Holz aussenEcke 8m Rampe 3ac
+<block name="Würfel3ac">
+	<property name="Model" value="#@modfolder:Resources/Würfelac.unity3d?Würfel3ac.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ac3"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel3az"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>	
+	</property>	
+</block>
+	
+Holz aussenEcke 8m Rampe 4ac
+<block name="Würfel4ac">
+	<property name="Model" value="#@modfolder:Resources/Würfelac.unity3d?Würfel4ac.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ac4"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel4az"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>	
+	</property>	
+</block>
+
+Holz aussenEcke 8m Rampe 5ac
+<block name="Würfel5ac">
+	<property name="Model" value="#@modfolder:Resources/Würfelac.unity3d?Würfel5ac.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ac5"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel5az"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>	
+	</property>	
+</block>
+	
+Holz aussenEcke 8m Rampe 6ac
+<block name="Würfel6ac">
+	<property name="Model" value="#@modfolder:Resources/Würfelac.unity3d?Würfel6ac.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ac6"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel6az"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>	
+	</property>	
+</block>
+	
+Holz aussenEcke 8m Rampe 6ac
+<block name="Würfel7ac">
+	<property name="Model" value="#@modfolder:Resources/Würfelac.unity3d?Würfel7ac.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m ac7"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mwood_shapes"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="FuelValue" value="500"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceWood" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel7az"/>
+		<property name="Item" value="resourceCobblestones"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_wood"/>	
+	</property>	
+</block>
+
+
+Holz aussenEcke 8m Rampe 0ac BlockVariantHelper
+<block name="Würfel0acBlockVariantHelper">
+	<property name="Extends" value="Würfel0ac"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="Rampe 8m ac0"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="Würfel0ac,Würfel1ac,Würfel2ac,Würfel3ac,Würfel4ac,Würfel5ac,Würfel6ac,Würfel7ac"/>
+	<property name="SortOrder1" value="U200"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers,MC_Shapes"/>
+</block>
+
+
+
+***** Zement aussenEcke  Rampe 8m aussenCementZ0 *****
+
+Zement aussenEcke 8m Rampe 0az
+<block name="Würfel0az">
+	<property name="Model" value="#@modfolder:Resources/Würfelaz.unity3d?Würfel0az.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m aZ0"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel0as"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>	
+</block>
+	
+Zement aussenEcke 8m Rampe 1az
+<block name="Würfel1az">
+	<property name="Model" value="#@modfolder:Resources/Würfelaz.unity3d?Würfel1az.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m aZ1"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel1as"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>	
+</block>
+
+Zement aussenEcke 8m Rampe 2az
+<block name="Würfel2az">
+	<property name="Model" value="#@modfolder:Resources/Würfelaz.unity3d?Würfel2az.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m aZ2"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel2as"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>	
+</block>
+	
+Zement aussenEcke 8m Rampe 3az
+<block name="Würfel3az">
+	<property name="Model" value="#@modfolder:Resources/Würfelaz.unity3d?Würfel3az.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m aZ3"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel3as"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>	
+</block>
+	
+Zement aussenEcke 8m Rampe 4az
+<block name="Würfel4az">
+	<property name="Model" value="#@modfolder:Resources/Würfelaz.unity3d?Würfel4az.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m aZ4"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel4as"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>	
+</block>
+
+Zement aussenEcke 8m Rampe 5az
+<block name="Würfel5az">
+	<property name="Model" value="#@modfolder:Resources/Würfelaz.unity3d?Würfel5az.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m aZ5"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel5as"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>	
+</block>
+	
+Zement aussenEcke 8m Rampe 6az
+<block name="Würfel6az">
+	<property name="Model" value="#@modfolder:Resources/Würfelaz.unity3d?Würfel6az.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m aZ6"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel6as"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>	
+</block>
+	
+Zement aussenEcke 8m Rampe 7az
+<block name="Würfel7az">
+	<property name="Model" value="#@modfolder:Resources/Würfelaz.unity3d?Würfel7az.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m aZ7"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Mcobblestone_shapes"/>
+	<property name="MaxDamage" value="5000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceConcreteMix" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="Würfel7as"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	<property name="UpgradeSound" value="place_block_concrete"/>	
+	</property>	
+</block>
+
+
+Zement aussenEcke 8m Rampe 0az
+<block name="Würfel0azBlockVariantHelper">
+	<property name="Extends" value="Würfel0az"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="Rampe 8m aZ0"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="Würfel0az,Würfel1az,Würfel2az,Würfel3az,Würfel4az,Würfel5az,Würfel6az,Würfel7az"/>
+	<property name="SortOrder1" value="U200"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers,MC_Shapes"/>
+</block>
+
+
+
+***** Steel AussenEcke 8m Rampe 0as *****
+
+Steel AussenEcke 8m Rampe 0as
+<block name="Würfel0as">
+	<property name="Model" value="#@modfolder:Resources/Würfelas.unity3d?Würfel0as.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m as0"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+
+Steel AussenEcke 8m Rampe 1as
+<block name="Würfel1as">
+	<property name="Model" value="#@modfolder:Resources/Würfelas.unity3d?Würfel1as.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m as1"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+
+Steel AussenEcke 8m Rampe 2as
+<block name="Würfel2as">
+	<property name="Model" value="#@modfolder:Resources/Würfelas.unity3d?Würfel2as.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m as2"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+	
+Steel AussenEcke 8m Rampe 3as
+<block name="Würfel3as">
+	<property name="Model" value="#@modfolder:Resources/Würfelas.unity3d?Würfel3as.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m as3"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+	
+Steel AussenEcke 8m Rampe 4as
+<block name="Würfel4as">
+	<property name="Model" value="#@modfolder:Resources/Würfelas.unity3d?Würfel4as.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m as4"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+
+Steel AussenEcke 8m Rampe 5as
+<block name="Würfel5as">
+	<property name="Model" value="#@modfolder:Resources/Würfelas.unity3d?Würfel5as.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m as5"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+	
+Steel AussenEcke 8m Rampe 6as
+<block name="Würfel6as">
+	<property name="Model" value="#@modfolder:Resources/Würfelas.unity3d?Würfel6as.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m as6"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+	
+Steel AussenEcke 8m Rampe 7as
+<block name="Würfel7as">
+	<property name="Model" value="#@modfolder:Resources/Würfelas.unity3d?Würfel7as.prefab"/>
+	<property name="CustomIcon" value="Rampe 8m as7"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Material" value="Msteel_shapes"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="FuelValue" value="300"/>
+	<property name="OnlySimpleRotations" value="false"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="6"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="UpgradeSound" value="place_block_metal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="ModelOffset" value="0,0,0"/>   
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="SellableToTrader" value="true" />
+	<property name="EconomicValue" value="160"/>
+</block>
+
+
+Steel AussenEcke 8m Rampe 0as BlockVariantHelper
+<block name="Würfel0asBlockVariantHelper">
+	<property name="Extends" value="Würfel0s"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="Rampe 8m as0"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="Würfel0as,Würfel1as,Würfel2as,Würfel3as,Würfel4as,Würfel5as,Würfel6as,Würfel7as"/>
+	<property name="SortOrder1" value="U200"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers,MC_Shapes"/>
+</block>
+
+</append>
+
+</configs>

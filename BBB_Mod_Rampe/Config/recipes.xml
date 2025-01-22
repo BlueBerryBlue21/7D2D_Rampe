@@ -1,0 +1,41 @@
+<configs>
+
+<append xpath="/recipes">
+
+<recipe name="Würfel0abBlockVariantHelper" count="1">
+	<ingredient name="resourceWood" count="2"/>
+</recipe>
+
+<recipe name="Würfel0BlockVariantHelper" count="1">
+	<ingredient name="resourceWood" count="10"/>
+</recipe>
+
+<recipe name="Würfel0cBlockVariantHelper" count="1">
+	<ingredient name="resourceConcreteMix" count="10"/>
+</recipe>
+
+<recipe name="Würfel0sBlockVariantHelper" count="1">
+	<ingredient name="resourceForgedSteel" count="10"/>
+</recipe>
+
+
+
+<recipe name="Würfel0ibBlockVariantHelper" count="1">
+	<ingredient name="resourceWood" count="2"/>
+</recipe>
+
+<recipe name="Würfel0acBlockVariantHelper" count="1">
+	<ingredient name="resourceWood" count="10"/>
+</recipe>
+
+<recipe name="Würfel0azBlockVariantHelper" count="1">
+	<ingredient name="resourceConcreteMix" count="10"/>
+</recipe>
+
+<recipe name="Würfel0asBlockVariantHelper" count="1">
+	<ingredient name="resourceForgedSteel" count="10"/>
+</recipe>
+
+</append>
+
+</configs>

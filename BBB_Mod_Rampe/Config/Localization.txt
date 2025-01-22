@@ -1,0 +1,224 @@
+key,English,German
+
+Würfel0ib,"Ramp 8m 0","Rampe 8m 0"
+Würfel0ibDesc,"Ramp 8m Inner corner frameShapes","Rampe 8m InnenEcke RahmenFormen"
+
+Würfel1ib,"Ramp 8m 1","Rampe 8m 1"
+Würfel1ibDesc,"Ramp 8m Inner corner frameShapes","Rampe 8m InnenEcke RahmenFormen"
+
+Würfel2ib,"Ramp 8m 2","Rampe 8m 2"
+Würfel2ibDesc,"Ramp 8m Inner corner frameShapes","Rampe 8m InnenEcke RahmenFormen"
+
+Würfel3ib,"Ramp 8m 3","Rampe 8m 3"
+Würfel3ibDesc,"Ramp 8m Inner corner frameShapes","Rampe 8m InnenEcke RahmenFormen"
+
+Würfel4ib,"Ramp 8m 4","Rampe 8m 4"
+Würfel4ibDesc,"Ramp 8m Inner corner frameShapes","Rampe 8m InnenEcke RahmenFormen"
+
+Würfel5ib,"Ramp 8m 5","Rampe 8m 5"
+Würfel5ibDesc,"Ramp 8m Inner corner frameShapes","Rampe 8m InnenEcke RahmenFormen"
+
+Würfel6ib,"Ramp 8m 6","Rampe 8m 6"
+Würfel6ibDesc,"Ramp 8m Inner corner frameShapes","Rampe 8m InnenEcke RahmenFormen"
+
+Würfel7ib,"Ramp 8m 7","Rampe 8m 7"
+Würfel7ibDesc,"Ramp 8m Inner corner frameShapes","Rampe 8m InnenEcke RahmenFormen"
+
+Würfel0ibBlockVariantHelper,"Ramp 8m InnenEcke frameShapes","Rampe 8m InnenEcke RahmenFormen"
+Würfel0ibBlockVariantHelperDesc,"Craft various Ramp 8m with this helper block.\nPut the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with.","Stelle mit diesem Helferblock verschiedene Rampen 8m her.\nFüge den gefertigten Block deiner Leiste hinzu, halte die Nachladen-Taste gedrückt und wähle den Formeintrag im Kreismenü. Klicke oder Shift-Klicke, um eine Variante auszuwählen und damit zu bauen."
+
+
+Würfel0ab,"Ramp 8m 0","Rampe 8m 0"
+Würfel0abDesc,"Ramp 8m Aussen corner frameShapes","Rampe 8m AussenEcke RahmenFormen"
+
+Würfel1ab,"Ramp 8m 1","Rampe 8m 1"
+Würfel1abDesc,"Ramp 8m Aussen corner frameShapes","Rampe 8m AussenEcke RahmenFormen"
+
+Würfel2ab,"Ramp 8m 2","Rampe 8m 2"
+Würfel2abDesc,"Ramp 8m Aussen corner frameShapes","Rampe 8m AussenEcke RahmenFormen"
+
+Würfel3ab,"Ramp 8m 3","Rampe 8m 3"
+Würfel3abDesc,"Ramp 8m Aussen corner frameShapes","Rampe 8m AussenEcke RahmenFormen"
+
+Würfel4ab,"Ramp 8m 4","Rampe 8m 4"
+Würfel4abDesc,"Ramp 8m Aussen corner frameShapes","Rampe 8m AussenEcke RahmenFormen"
+
+Würfel5ab,"Ramp 8m 5","Rampe 8m 5"
+Würfel5abDesc,"Ramp 8m Aussen corner frameShapes","Rampe 8m AussenEcke RahmenFormen"
+
+Würfel6ab,"Ramp 8m 6","Rampe 8m 6"
+Würfel6abDesc,"Ramp 8m Aussen corner frameShapes","Rampe 8m AussenEcke RahmenFormen"
+
+Würfel7ab,"Ramp 8m 7","Rampe 8m 7"
+Würfel7abDesc,"Ramp 8m Aussen corner frameShapes","Rampe 8m AussenEcke RahmenFormen"
+
+Würfel0abBlockVariantHelper,"Ramp 8m AussenEcke frameShapes","Rampe 8m AussenEcke RahmenFormen"
+Würfel0abBlockVariantHelperDesc,"Craft various Ramp 8m with this helper block.\nPut the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with.","Stelle mit diesem Helferblock verschiedene Rampen 8m her.\nFüge den gefertigten Block deiner Leiste hinzu, halte die Nachladen-Taste gedrückt und wähle den Formeintrag im Kreismenü. Klicke oder Shift-Klicke, um eine Variante auszuwählen und damit zu bauen."
+
+
+Würfel0,"Ramp 8m 0","Rampe 8m 0"
+Würfel0Desc,"Ramp 8m Inner corner Wood","Rampe 8m InnenEcke Holz"
+
+Würfel1,"Ramp 8m 1","Rampe 8m 1"
+Würfel1Desc,"Ramp 8m Inner corner Wood","Rampe 8m InnenEcke Holz"
+
+Würfel2,"Ramp 8m 2","Rampe 8m 2"
+Würfel2Desc,"Ramp 8m Inner corner Wood","Rampe 8m InnenEcke Holz"
+
+Würfel3,"Ramp 8m 3","Rampe 8m 3"
+Würfel3Desc,"Ramp 8m Inner corner Wood","Rampe 8m InnenEcke Holz"
+
+Würfel4,"Ramp 8m 4","Rampe 8m 4"
+Würfel4Desc,"Ramp 8m Inner corner Wood","Rampe 8m InnenEcke Holz"
+
+Würfel5,"Ramp 8m 5","Rampe 8m 5"
+Würfel5Desc,"Ramp 8m Inner corner Wood","Rampe 8m InnenEcke Holz"
+
+Würfel6,"Ramp 8m 6","Rampe 8m 6"
+Würfel6Desc,"Ramp 8m Inner corner Wood","Rampe 8m InnenEcke Holz"
+
+Würfel7,"Ramp 8m 7","Rampe 8m 7"
+Würfel7Desc,"Ramp 8m Inner corner Wood","Rampe 8m InnenEcke Holz"
+
+Würfel0BlockVariantHelper,"Ramp 8m InnenEcke Wood","Rampe 8m InnenEcke Holz"
+Würfel0BlockVariantHelperDesc,"Craft various Ramp 8m with this helper block.\nPut the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with.","Stelle mit diesem Helferblock verschiedene Rampen 8m her.\nFüge den gefertigten Block deiner Leiste hinzu, halte die Nachladen-Taste gedrückt und wähle den Formeintrag im Kreismenü. Klicke oder Shift-Klicke, um eine Variante auszuwählen und damit zu bauen."
+
+
+Würfel0c,"Ramp 8m 0","Rampe 8m 0"
+Würfel0cDesc,"Rampe8mInnenEckeCement","Rampe8mInnenEckeCement"
+
+Würfel1c,"Ramp 8m 1","Rampe 8m 1"
+Würfel1cDesc,"Rampe8mInnenEckeCement","Rampe8mInnenEckeCement"
+
+Würfel2c,"Ramp 8m 2","Rampe 8m 2"
+Würfel2cDesc,"Rampe8mInnenEckeCement","Rampe8mInnenEckeCement"
+
+Würfel3c,"Ramp 8m 3","Rampe 8m 3"
+Würfel3cDesc,"Rampe8mInnenEckeCement","Rampe8mInnenEckeCement"
+
+Würfel4c,"Ramp 8m 4","Rampe 8m 4"
+Würfel4cDesc,"Rampe8mInnenEckeCement","Rampe8mInnenEckeCement"
+
+Würfel5c,"Ramp 8m 5","Rampe 8m 5"
+Würfel5cDesc,"Rampe8mInnenEckeCement","Rampe8mInnenEckeCement"
+
+Würfel6c,"Ramp 8m 6","Rampe 8m 6"
+Würfel6cDesc,"Rampe8mInnenEckeCement","Rampe8mInnenEckeCement"
+
+Würfel7c,"Ramp 8m 7","Rampe 8m 7"
+Würfel7cDesc,"Rampe8mInnenEckeCement","Rampe8mInnenEckeCement"
+
+Würfel0cBlockVariantHelper,"Ramp 8m InnenEcke Cement","Rampe 8m InnenEcke Zement"
+Würfel0cBlockVariantHelperDesc,"Craft various Ramp 8m with this helper block.\nPut the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with.","Stelle mit diesem Helferblock verschiedene Rampen 8m her.\nFüge den gefertigten Block deiner Leiste hinzu, halte die Nachladen-Taste gedrückt und wähle den Formeintrag im Kreismenü. Klicke oder Shift-Klicke, um eine Variante auszuwählen und damit zu bauen."
+
+
+Würfel0s,"Ramp 8m 0","Rampe 8m 0"
+Würfel0sDesc,"Rampe8mInnenEckeSteel","Rampe8mInnenEckeSteel"
+
+Würfel1s,"Ramp 8m 1","Rampe 8m 1"
+Würfel1sDesc,"Rampe8mInnenEckeSteel","Rampe8mInnenEckeSteel"
+
+Würfel2s,"Ramp 8m 2","Rampe 8m 2"
+Würfel2sDesc,"Rampe8mInnenEckeSteel","Rampe8mInnenEckeSteel"
+
+Würfel3s,"Ramp 8m 3","Rampe 8m 3"
+Würfel3sDesc,"Rampe8mInnenEckeSteel","Rampe8mInnenEckeSteel"
+
+Würfel4s,"Ramp 8m 4","Rampe 8m 4"
+Würfel4sDesc,"Rampe8mInnenEckeSteel","Rampe8mInnenEckeSteel"
+
+Würfel5s,"Ramp 8m 5","Rampe 8m 5"
+Würfel5sDesc,"Rampe8mInnenEckeSteel","Rampe8mInnenEckeSteel"
+
+Würfel6s,"Ramp 8m 6","Rampe 8m 6"
+Würfel6sDesc,"Rampe8mInnenEckeSteel","Rampe8mInnenEckeSteel"
+
+Würfel7s,"Ramp 8m 7","Rampe 8m 7"
+Würfel7sDesc,"Rampe8mInnenEckeSteel","Rampe8mInnenEckeSteel"
+
+Würfel0sBlockVariantHelper,"Ramp 8m InnenEcke Steel","Rampe 8m InnenEcke Stahl"
+Würfel0sBlockVariantHelperDesc,"Craft various Ramp 8m with this helper block.\nPut the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with.","Stelle mit diesem Helferblock verschiedene Rampen 8m her.\nFüge den gefertigten Block deiner Leiste hinzu, halte die Nachladen-Taste gedrückt und wähle den Formeintrag im Kreismenü. Klicke oder Shift-Klicke, um eine Variante auszuwählen und damit zu bauen."
+
+
+Würfel0as,"Ramp 8m 0","Rampe 8m 0"
+Würfel0asDesc,"Rampe8mAussenEckeSteel","Rampe8mAussenEckeSteel"
+
+Würfel1as,"Ramp 8m 1","Rampe 8m 1"
+Würfel1asDesc,"Rampe8mAussenEckeSteel","Rampe8mAussenEckeSteel"
+
+Würfel2as,"Ramp 8m 2","Rampe 8m 2"
+Würfel2asDesc,"Rampe8mAussenEckeSteel","Rampe8mAussenEckeSteel"
+
+Würfel3as,"Ramp 8m 3","Rampe 8m 3"
+Würfel3asDesc,"Rampe8mAussenEckeSteel","Rampe8mAussenEckeSteel"
+
+Würfel4as,"Ramp 8m 4","Rampe 8m 4"
+Würfel4asDesc,"Rampe8mAussenEckeSteel","Rampe8mAussenEckeSteel"
+
+Würfel5as,"Ramp 8m 5","Rampe 8m 5"
+Würfel5asDesc,"Rampe8mAussenEckeSteel","Rampe8mAussenEckeSteel"
+
+Würfel6as,"Ramp 8m 6","Rampe 8m 6"
+Würfel6asDesc,"Rampe8mAussenEckeSteel","Rampe8mAussenEckeSteel"
+
+Würfel7as,"Ramp 8m 7","Rampe 8m 7"
+Würfel7asDesc,"Rampe8mAussenEckeSteel","Rampe8mAussenEckeSteel"
+
+Würfel0asBlockVariantHelper,"Ramp 8m AussenEcke Steel","Rampe 8m AussenEcke Stahl"
+Würfel0asBlockVariantHelperDesc,"Craft various Ramp 8m with this helper block.\nPut the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with.","Stelle mit diesem Helferblock verschiedene Rampen 8m her.\nFüge den gefertigten Block deiner Leiste hinzu, halte die Nachladen-Taste gedrückt und wähle den Formeintrag im Kreismenü. Klicke oder Shift-Klicke, um eine Variante auszuwählen und damit zu bauen."
+
+
+Würfel0ac,"Ramp 8m 0","Rampe 8m 0"
+Würfel0acDesc,"Rampe8mAussenEckeHolz","Rampe8mAussenEckeHolz"
+
+Würfel1ac,"Ramp 8m 1","Rampe 8m 1"
+Würfel1acDesc,"Rampe8mAussenEckeHolz","Rampe8mAussenEckeHolz"
+
+Würfel2ac,"Ramp 8m 2","Rampe 8m 2"
+Würfel2acDesc,"Rampe8mAussenEckeHolz","Rampe8mAussenEckeHolz"
+
+Würfel3ac,"Ramp 8m 3","Rampe 8m 3"
+Würfel3acDesc,"Rampe8mAussenEckeHolz","Rampe8mAussenEckeHolz"
+
+Würfel4ac,"Ramp 8m 4","Rampe 8m 4"
+Würfel4acDesc,"Rampe8mAussenEckeHolz","Rampe8mAussenEckeHolz"
+
+Würfel5ac,"Ramp 8m 5","Rampe 8m 5"
+Würfel5acDesc,"Rampe8mAussenEckeHolz","Rampe8mAussenEckeHolz"
+
+Würfel6ac,"Ramp 8m 6","Rampe 8m 6"
+Würfel6acDesc,"Rampe8mAussenEckeHolz","Rampe8mAussenEckeHolz"
+
+Würfel7ac,"Ramp 8m 7","Rampe 8m 7"
+Würfel7acDesc,"Rampe8mAussenEckeHolz","Rampe8mAussenEckeHolz"
+
+Würfel0acBlockVariantHelper,"Ramp 8m AussenEcke Wood","Rampe 8m AussenEcke Holz"
+Würfel0acBlockVariantHelperDesc,"Craft various Ramp 8m with this helper block.\nPut the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with.","Stelle mit diesem Helferblock verschiedene Rampen 8m her.\nFüge den gefertigten Block deiner Leiste hinzu, halte die Nachladen-Taste gedrückt und wähle den Formeintrag im Kreismenü. Klicke oder Shift-Klicke, um eine Variante auszuwählen und damit zu bauen."
+
+
+Würfel0az,"Ramp 8m 0","Rampe 8m 0"
+Würfel0azDesc,"Rampe 8m AussenEcke CEM","Rampe 8m AussenEcke CEM"
+
+Würfel1az,"Ramp 8m 1","Rampe 8m 1"
+Würfel1azDesc,"Rampe8mAussenEckeCement","Rampe8mAussenEckeCement"
+
+Würfel2az,"Ramp 8m 2","Rampe 8m 2"
+Würfel2azDesc,"Rampe8mAussenEckeCement","Rampe8mAussenEckeCement"
+
+Würfel3az,"Ramp 8m 3","Rampe 8m 3"
+Würfel3azDesc,"Rampe8mAussenEckeCement","Rampe8mAussenEckeCement"
+
+Würfel4az,"Ramp 8m 4","Rampe 8m 4"
+Würfel4azDesc,"Rampe8mAussenEckeCement","Rampe8mAussenEckeCement"
+
+Würfel5az,"Ramp 8m 5","Rampe 8m 5"
+Würfel5azDesc,"Rampe8mAussenEckeCement","Rampe8mAussenEckeCement"
+
+Würfel6az,"Ramp 8m 6","Rampe 8m 6"
+Würfel6azDesc,"Rampe8mAussenEckeCement","Rampe8mAussenEckeCement"
+
+Würfel7az,"Ramp 8m 7","Rampe 8m 7"
+Würfel7azDesc,"Rampe8mAussenEckeCement","Rampe8mAussenEckeCement"
+
+Würfel0azBlockVariantHelper,"Ramp 8m AussenEcke Cement","Rampe 8m AussenEcke Zement"
+Würfel0azBlockVariantHelperDesc,"Craft various Ramp 8m with this helper block.\nPut the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with.","Stelle mit diesem Helferblock verschiedene Rampen 8m her.\nFüge den gefertigten Block deiner Leiste hinzu, halte die Nachladen-Taste gedrückt und wähle den Formeintrag im Kreismenü. Klicke oder Shift-Klicke, um eine Variante auszuwählen und damit zu bauen."
